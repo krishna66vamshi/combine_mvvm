@@ -36,6 +36,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF13A1652C64F7B000DE9C38 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EF6EA22E2C579EF400162BF4 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EF13A1662C64F7B800DE9C38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF6EA22C2C579EE900162BF4 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF13A1672C64F7BD00DE9C38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF2819692C579B3F00EDD9BF /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		EF28195B2C579B3F00EDD9BF = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				EF2819672C579B3F00EDD9BF /* CombineDemoApp.swift */,
-				EF2819692C579B3F00EDD9BF /* ContentView.swift */,
-				EF6EA22C2C579EE900162BF4 /* Model.swift */,
-				EF6EA22E2C579EF400162BF4 /* ViewModel.swift */,
+				EF13A1662C64F7B800DE9C38 /* Model */,
+				EF13A1672C64F7BD00DE9C38 /* View */,
+				EF13A1652C64F7B000DE9C38 /* ViewModel */,
 				EF28196B2C579B4100EDD9BF /* Assets.xcassets */,
 				EF28196D2C579B4100EDD9BF /* Preview Content */,
 			);
